@@ -7,14 +7,18 @@ using namespace std;
 //   - an integer size
 // Return:
 //   - the sum of the elements
-
 template <typename T>
 T arraySum(T arr[], int size) {
-    // TODO: Initialize a variable to store the sum
+    // Initialize sum to the default value of type T
+    T sum = T();
 
-    // TODO: Use a loop to add all elements
+    // Add each element to sum
+    for (int i = 0; i < size; i++) {
+        sum += arr[i];
+    }
 
-    // TODO: Return the sum
+    // Return the total
+    return sum;
 }
 
 int main() {
