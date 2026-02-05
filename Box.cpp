@@ -5,12 +5,24 @@ private:
 
 public:
     // TODO: Constructor
+    Box(T v) {
+            value = v;
+        }
 
     // TODO: setValue
+    void setValue(T v) {
+        value = v;
+    }
 
     // TODO: getValue
+    T getValue() const {
+        return value;
+    }
 
     // TODO: print
+    void print() const {
+        std::cout << value << std::endl;
+    }
 };
 
 int main()
