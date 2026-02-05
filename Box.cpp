@@ -34,4 +34,6 @@ int main()
   intBox.print();
   doubleBox.print();
   stringBox.print();
+
+    return 0;
 }
